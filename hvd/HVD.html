@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, Keith.</title>
+    <link rel="stylesheet" href="HVD.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="opening-screen" id="openingScreen">
+        <h2>For You, Keith ❤️</h2>
+        <button onclick="openLetter()">Open</button>
+    </div>
+
+    <div class="container" id="letterContainer" style="display: none;">
+        <h1>Hi there, <span>Rapitot</span> ❤️</h1>
+        <p>
+            <b>Haha, first time kong magbibigay ng ganito sayo. 
+            Hindi ko pa kaya tapatan yung coding skills mo kaya hanggang sa tulong na lang muna ng websites🤣🥹. 
+            So ayun, Happy Valentine's Day, Rapitot!🥰 This is my first time celebrating this once-a-year event with a special someone. 
+            I just want to thank you for always making me feel loved and cared for. Thank you for always being such an understanding person to me. 
+            I love how you don't invalidate my feelings every time na may sinasabi ako sayo. 
+            I will always cherish those moments of us na meron tayo ngayon kahit na nasa virtual mode palang tayo haha. 
+
+            <br><br>
+            Ayun lang for now rapitot, di ko na ma-express yung iba pang gusto ko sabihin hahaha nahihiya na ako. 
+            I just want to reciprocate the efforts that you always give to me. This is just a simple gift, but yeah, I hope this will make your day.
+            <br><br>
+            Happy Valentine's Day, Keith! I love you always.</b>
+        </p>
+
+        <div class="xo-signature">
+            -XO, Maaayeys 💌
+        </div>
+
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="Plain White T's - 1, 2, 3, 4.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        function openLetter() {
+            document.getElementById("openingScreen").style.display = "none";
+            document.getElementById("letterContainer").style.display = "block";
+            document.getElementById("bg-music").play();
+        }
+
+    </script>
+</body>
+
+</html>
